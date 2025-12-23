@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "min-gambling"
+version = "0.1.0"
+dependencies = ["numpy", "matplotlib", "streamlit"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
