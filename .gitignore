@@ -1,5 +1,16 @@
+# Virtual env
 .venv/
+
+# Python
 __pycache__/
 *.pyc
-results/q_table.npy
+
+# Generated artifacts
+q_table.npy
+results/*
+!results/.gitkeep
+
+# OS/IDE
 .DS_Store
+.vscode/
+.idea/
